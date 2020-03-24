@@ -261,15 +261,14 @@ button
  */
 .button {
     text-decoration: none;
-    margin-top: 15px;
+    border-radius: 25px;
     border: 1px solid #448ccb;
     color: #448ccb;
-    border-radius: 25px;
-    padding: 13px 50px;
     font-size: 14px;
     display: inline-block;
     text-align: center;
-    margin-left: 38px;
+    margin: 15px 0 25px 38px;
+    padding: 13px 50px;
 }
 
 /*==============================
