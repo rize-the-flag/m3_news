@@ -286,6 +286,37 @@ central column
     overflow: hidden;
 }
 
+.hot {
+    position: relative;
+    color: #ffffff;
+}
+
+.wrap-hot-text {
+    position: absolute;
+    left: 21px;
+    top: 112px;
+}
+
+.news-category--hot {
+    display: block;
+    float: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.news-extras__date--hot {
+    color: #fff;
+    font-size: 12px;
+}
+
+.news-extras__time--hot {
+    color: #fff;
+    font-size: 12px;
+    background: url("../images/icons/clock_white.svg") no-repeat left/22%;
+    padding-left: 12px;
+    margin-left: 18px;
+}
+
 .main-news__item {
     display: inline-block;
     width: 222px;
@@ -300,11 +331,21 @@ central column
     letter-spacing: -0.17px;
 }
 
+.article__link--hot {
+    display: block;
+    float: none;
+    margin-top: 17px;
+    margin-bottom: 21px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #ffffff;
+    letter-spacing: 0.55px;
+}
+
 .article__link--bold {
     font-weight: 700;
     font-size: 14px;
 }
-
 
 .main-news__item .news-extras {
     margin: 0;
