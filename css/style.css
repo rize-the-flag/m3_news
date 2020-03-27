@@ -174,7 +174,7 @@ main news block
  */
 .main {
     overflow: hidden;
-    margin-bottom: 100px;
+    margin-bottom: 59px;
     background-color: #f9f9f9;
     box-shadow: inset 0 20px 10px -10px #efefef;
 }
@@ -469,4 +469,121 @@ right
     color: #000000;
     font-size: 16px;
     line-height: 22px;
+}
+
+/*==============================
+footer
+ */
+
+.footer {
+    background-color: #00122f;
+}
+
+.bottom-menu {
+    width: 260px;
+    columns: 2;
+    float: left;
+    margin: 52px 0;
+}
+
+.bottom-menu__item {
+    margin: 0 0 14px 0;
+}
+
+.bottom-menu__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.diff-links {
+    float: left;
+    margin: 55px 0 44px 176px;
+}
+
+.bottom-logo {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.additional__item {
+    margin-bottom: 14px;
+    margin-left: 2px;
+}
+
+
+.socials {
+
+}
+
+.socials-contacts {
+    float: left;
+    margin: 53px 0 0 178px;
+}
+
+.socials__items {
+    display: inline-block;
+}
+.socials__items:not(:last-child) {
+    margin: 0 16px 0 0;
+}
+
+.socials__link {
+    display: block;
+}
+
+.socials__icon {
+    width: 22px;
+    height: 22px;
+    fill: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.wrap-tel-mail {
+    float: left;
+    margin-top: 38px;
+}
+
+.social-contacts__tel {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.social-contacts__mail {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.tel-pic {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+    margin-right: 12px;
+}
+
+.mail-pic {
+    width: 14px;
+    height: 14px;
+    fill: #fff;
+    margin-right: 15px;
+}
+
+.copyright {
+    border-top: 1px solid #26354e;
+    text-align:center;
+    clear: both;
+}
+
+.copyright__text {
+    display: block;
+    color: #727882;
+    font-size: 14px;
+    padding: 17px 0;
 }
