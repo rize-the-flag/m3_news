@@ -382,6 +382,7 @@ central column
 .adv {
     float: left;
 }
+
 /*================================================================
 popular news block
  */
@@ -400,7 +401,7 @@ popular news block
 }
 
 .most-popular__hot {
-    float:left;
+    float: left;
     position: relative;
 }
 
@@ -420,6 +421,7 @@ popular news block
 .article__header {
 
 }
+
 /*============================================================================
 left column
  */
@@ -428,12 +430,12 @@ left column
 right
  */
 
-.most-popular__item .news-extras{
+.most-popular__item .news-extras {
     float: none;
 }
 
 .most-popular__list {
-    float:left;
+    float: left;
     width: 412px;
     background-color: #ffffff;
 }
@@ -449,6 +451,7 @@ right
 .most-popular__item:last-child {
     padding: 10px 0 15px 19px;
 }
+
 .most-popular .article__link--hot {
     display: block;
     float: none;
@@ -532,6 +535,7 @@ footer
 .socials__items {
     display: inline-block;
 }
+
 .socials__items:not(:last-child) {
     margin: 0 16px 0 0;
 }
@@ -585,7 +589,7 @@ footer
 
 .copyright {
     border-top: 1px solid #26354e;
-    text-align:center;
+    text-align: center;
     clear: both;
 }
 
@@ -594,4 +598,31 @@ footer
     color: #727882;
     font-size: 14px;
     padding: 17px 0;
+}
+
+.currencies {
+    font-size: 12px;
+    color: #333;
+    overflow: hidden;
+    margin: 12px 25px 12px 19px;
+}
+
+.currencies__link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.rub {
+    line-height: 1px;
+    width: 0.5em;
+    border-bottom: 1px solid #848484;
+    display: inline-block;
+}
+
+.EUR, .USD {
+    display: inline-block;
+    margin: 13px 10px 0 0;
+    color: #848484;
 }
