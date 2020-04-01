@@ -12,6 +12,4 @@ $( document ).ready( function () {
             $( '.EUR-val' ).text( ru_eur );
             $( '.USD-val' ).text( ru_usd );
         } );
-
-
 } );
