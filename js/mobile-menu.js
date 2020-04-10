@@ -6,11 +6,13 @@ $(document).ready(function(){
    menuButton.click(event=>{
         menuButton.children('.menu-burger__view').toggleClass('menu-burger__view--open');
         if ( menuButton.children('.menu-burger__view').hasClass('menu-burger__view--open')){
-            menu.slideDown();
+            menu.slideDown(300, ()=>{
+                menu.css({'display': 'flex'})
+            });
         }
         else{
             menu.slideUp();
         }
-   })
+    })
 
 })
